@@ -1,12 +1,13 @@
-import React, { Component } from 'react';
-import './App.scss';
+import React, { Component } from "react";
+import Login from "./components/login/login.component";
+import "./App.scss";
 
 export default class App extends Component {
-    render() {
-        return (
-            <div>This is hot reloading!
-                <h2>Hello world!</h2>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <Login />
+      </div>
+    );
+  }
 }
