@@ -39,6 +39,7 @@
     "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.4.2",
     "dotenv": "^8.2.0",
+    "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.0.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^25.2.4",
