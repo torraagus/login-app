@@ -7,10 +7,11 @@ export default function Login() {
     <>
       <Grid>
         <Row center="xs">
-          <Col xl={4} lg={5} md={6} xs={10} className="login-div">
+          <Col xl={4} lg={5} md={6} sm={8} xs={9} className="login-div">
             <div class="logo"></div>
-            <div class="title">NOMBRE</div>
-            <div class="sub-title">Frase que invite a la acción</div>
+            <div class="title">Ingresa a {'<App>'}</div>
+            <div class="sub-title">{'<Slogan>'}</div>
+            <p>Ingresá con facebook</p>
             <button class="facebook-button">Facebook</button>
             <p>o sino...</p>
             <div class="fields">
