@@ -5,8 +5,8 @@ const MiniCSSExtractPlugin = require("mini-css-extract-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 require("dotenv").config();
 
-const isDevelopment = process.env.MODE === "development";
-console.log(process.env.MODE);
+const isDevelopment = process.env.NODE_ENV === "development";
+console.log(process.env.NODE_ENV);
 
 module.exports = {
   mode: isDevelopment ? "development" : "production",
